@@ -1,5 +1,5 @@
 {
-	"name": "pierreminiggio/remotion-test-github-action",
+	"name": "@pierreminiggio/remotion-test-github-action",
 	"version": "1.0.0",
 	"description": "My Remotion video",
 	"scripts": {
