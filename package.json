@@ -7,7 +7,9 @@
 		"build": "remotion render src/index.tsx HelloWorld out.mp4",
 		"upgrade": "remotion upgrade",
 		"server": "ts-node server.tsx",
-		"test": "eslint src --ext ts,tsx,js,jsx && tsc"
+		"test": "eslint src --ext ts,tsx,js,jsx && tsc",
+		"build-tsc": "tsc -d",
+		"watch-tsc": "tsc -w"
 	},
 	"repository": {},
 	"license": "UNLICENSED",

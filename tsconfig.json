@@ -3,12 +3,16 @@
 		"target": "ES2018",
 		"module": "commonjs",
 		"jsx": "react-jsx",
+		"rootDir": "./src",
 		"outDir": "./dist",
 		"strict": true,
-		"noEmit": true,
+		"noEmit": false,
 		"lib": ["es2015", "DOM"],
 		"esModuleInterop": true,
 		"skipLibCheck": true,
-		"forceConsistentCasingInFileNames": true
-	}
+		"forceConsistentCasingInFileNames": true,
+		"declaration": true,
+		"composite": true
+	},
+	"include": ["./src"]
 }
